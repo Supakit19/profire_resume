@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { Home, User, Code2, Briefcase } from "lucide-react";
 
