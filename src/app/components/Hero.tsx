@@ -58,9 +58,9 @@ export default function Hero({ scrollToSection, mousePosition }: HeroProps) {
   }, []);
 
   return (
-    <section
+    <div
       id="home"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gray-950 text-white"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gray-950 text-white "
     >
       {/* Neon grid background */}
       <div className="absolute inset-0 opacity-20 bg-[linear-gradient(45deg,rgba(6,182,212,0.1)_25%,transparent_25%,transparent_50%,rgba(236,72,153,0.1)_50%,rgba(236,72,153,0.1)_75%,transparent_75%,transparent)] bg-[length:50px_50px] animate-gridmove" />
@@ -91,11 +91,11 @@ export default function Hero({ scrollToSection, mousePosition }: HeroProps) {
         <h1 className="text-7xl sm:text-8xl font-extrabold mb-6 bg-gradient-to-r from-cyan-400 via-pink-400 to-yellow-400 bg-clip-text text-transparent animate-gradient-neon drop-shadow-[0_0_20px_rgba(6,182,212,0.8)]">
           Supakit Boonkien
         </h1>
-        <p className="text-2xl sm:text-3xl text-gray-200 mb-4 animate-slide-in font-mono">
+        <p className="text-2xl sm:text-3xl text-gray-200 mb-4 animate-slide-in font-mali">
           วิศวะคอมพิวเตอร์ | มหาวิทยาลัยพะเยา ปี 4
         </p>
         <p
-          className="text-lg text-gray-300 mb-12 max-w-2xl mx-auto animate-slide-in font-mono"
+          className="text-lg text-gray-300 mb-12 max-w-2xl mx-auto animate-slide-in font-mali"
           style={{ animationDelay: "0.2s" }}
         >
           คณะเทคโนโลยีสารสนเทศและการสื่อสาร 
@@ -231,6 +231,6 @@ export default function Hero({ scrollToSection, mousePosition }: HeroProps) {
           animation: gridmove 8s linear infinite;
         }
       `}</style>
-    </section>
+    </div>
   );
 }

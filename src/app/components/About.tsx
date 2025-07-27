@@ -43,10 +43,10 @@ export const About: React.FC = () => {
                   className="w-full h-full object-cover"
                 />
               </motion.div>
-              <h2 className="text-3xl font-bold bg-gradient-to-r from-cyan-400 to-pink-400 bg-clip-text text-transparent">
-                สวัสดี ผมชื่อ นายศุภกิตติ์ บุญเขียน
+              <h2 className="text-3xl font-bold bg-gradient-to-r from-cyan-400 to-pink-400 bg-clip-text text-transparent pt-5">
+                My name is Supakit Boonkien
               </h2>
-              <p className="text-gray-300">
+              <p className="text-gray-300 pt-">
                 นักศึกษาชั้นปีสุดท้ายสาขาวิศวกรรมคอมพิวเตอร์ มหาวิทยาลัยพะเยา
                 สนใจอยากลองฝึกงานด้านการพัฒนาเว็บไซต์แบบ Full-Stack และเทคโนโลยีสมัยใหม่
                 ชื่นชอบการสร้างสรรค์{" "}
